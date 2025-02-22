@@ -30,7 +30,7 @@ int main() {
     for (int i = 0; i < 10; i++) {
         printf("%d ", input_ids[i]);
     }
-    printf("\nFirst label: %lld\n", labels[0]);
+    printf("\nFirst label: %ld\n", labels[0]);
 
     // Close files
     fclose(inputFile);
